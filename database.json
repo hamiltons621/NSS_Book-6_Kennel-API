@@ -4,51 +4,82 @@
       "id": 1,
       "name": "Doodles",
       "breed": "Poodle",
-      "customerId": 1,
-      "locationId": 2
+      "locationId": 2,
+      "customerId": 1
     },
     {
       "id": 2,
       "name": "Cooper",
       "breed": "Pomeranian",
-      "customerId": 2,
-      "locationId": 1
+      "locationId": 1,
+      "customerId": 2
     },
     {
       "id": 3,
       "name": "Pretzel",
-      "breed": "Lab",
-      "customerId": 3,
-      "locationId": 1
+      "breed": "Labrador",
+      "locationId": 1,
+      "customerId": 3
     },
     {
       "id": 4,
       "name": "Charles",
       "breed": "Cocker Spaniel",
-      "customerId": 4,
-      "locationId": 2
+      "locationId": 2,
+      "customerId": 4
+    },
+    {
+      "id": 5,
+      "name": "Garbanzo",
+      "breed": "German Shephard ",
+      "locationId": 3,
+      "customerId": 3
+    },
+    {
+      "id": 6,
+      "name": "Bruno",
+      "breed": "Saint Bernard ",
+      "locationId": 4,
+      "customerId": 5
+    },
+    {
+      "id": 7,
+      "name": "Max",
+      "breed": "Maltese",
+      "locationId": 4,
+      "customerId": 1
     }
   ],
   "customers": [
     {
       "id": 1,
       "name": "Hannah Hall",
-      "address": "7002 Chestnut Ct"
+      "address": "7002 Chestnut Ct",
+      "email": "test@test.com"
     },
     {
       "id": 2,
       "name": "Tom Thomas",
-      "address": "123 Rainbow Pike"
+      "address": "123 Rainbow Pike",
+      "email": "test2@test.com"
     },
     {
       "id": 3,
       "name": "Frank Franklin",
-      "address": "4568 16th Street"
+      "address": "4568 16th Street",
+      "email": "test3@test.com"
     },
     {
       "id": 4,
       "name": "Sam Sampson",
-      "address": "4869 Jersey Lane"
+      "address": "4869 Smith Lane",
+      "email": "test4@test.com"
+    },
+    {
+      "email": "pat@pat.com",
+      "name": "Pat Patterson",
+      "address": "234 Jersey Lane",
+      "id": 5
     }
   ],
   "employees": [
@@ -65,12 +96,27 @@
     {
       "id": 3,
       "name": "Kim",
-      "locationId": 1
+      "locationId": 3
     },
     {
       "id": 4,
       "name": "Pim",
-      "locationId": 2
+      "locationId": 4
+    },
+    {
+      "name": "Tom",
+      "locationId": 1,
+      "id": 5
+    },
+    {
+      "name": "Dom",
+      "locationId": 4,
+      "id": 6
+    },
+    {
+      "name": "Don",
+      "locationId": 4,
+      "id": 7
     }
   ],
   "locations": [
@@ -81,8 +127,18 @@
     },
     {
       "id": 2,
-      "name": "Nashville South",
-      "address": "209 Emory Drive"
+      "name": "Nashville West",
+      "address": "110 Harding Road"
+    },
+    {
+      "name": "Nashville East",
+      "address": "435 Wedgewood ",
+      "id": 3
+    },
+    {
+      "name": "Franklin",
+      "address": "254 Main Street",
+      "id": 4
     }
   ]
 }
